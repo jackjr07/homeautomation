@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Jack's Home</title>
+    </head>
+    <body>
+        <h1>Home Control</h1>
+        <h2>Security Status : {{ secure_status }}</h2>
+        <h2>The door is open at: {{ current_time }}</h2><br><br>
+            <div>
+                <h2>Security System</h2>
+                <button class="btn success"><a href='/secure_on'> Turn on</a></button>
+                <button class="btn danger"><a href='/secure_off'> Turn off</a></button>
+            </div><br>
+            <div>
+                <h2>Window's Status</h2>
+                <p>Living room's Status : {{living_win}}</p>
+                <p>Bedroom's Status : {{bed_win}}</p>
+            </div>
+    </body>
+</html>

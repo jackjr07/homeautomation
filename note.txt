@@ -1,0 +1,2 @@
+#check Temperature on PI
+vcgencmd measure_temp
